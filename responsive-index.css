@@ -1,13 +1,7 @@
 @media (max-width: 768px) {
-    nav{
-        padding: 20px;
-     }
-    nav{
-        font-size: 1rem;
-    }
-    .logo-pag{
-        width:50px ;
-    }
+     .logo-pag{
+        width: 4.5rem ;
+    } 
 /* INICIO */
 .titulo{
     width: 100%;
