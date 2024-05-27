@@ -1,0 +1,38 @@
+@media (max-width: 650px){
+    .titulo{
+        width: 100%;
+    }
+    .menu{
+        flex-direction: column;
+        width: 100%;
+    }
+    .menu-carta{
+        width: auto;
+        padding: 0 0px;
+    }
+
+
+
+
+
+
+    /* FOOTER */
+    footer{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .redes{
+        width: 100%;
+    }
+    .redes-a{
+        padding: 20px;
+    }
+}
+
+
