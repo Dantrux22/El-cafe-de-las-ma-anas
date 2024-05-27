@@ -43,7 +43,7 @@ nav{
 /* INICIO */
 .Inicio {
     position: relative;
-    background-image:url(fondo-cafe.png);
+    background-image:url(./fotos/fondo-cafe.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
