@@ -51,15 +51,21 @@ content {
     color: var(--color-datalles);
   }
 .content{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
   .bebe-responsive{
     display: none;
   }
  .descripcion-p{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     height: 40vh;
     padding: 40px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
  }
 
  /* HORARIO */
