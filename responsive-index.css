@@ -1,5 +1,8 @@
 @media (max-width: 768px) {
     nav{
+        padding: 20px;
+     }
+    nav{
         font-size: 1rem;
     }
     .logo-pag{
@@ -7,14 +10,19 @@
     }
 /* INICIO */
 .titulo{
-    text-align: start;
-    padding-right: 100px;
     width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
 }
 .inicio-buton {
-    padding: 20px 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: -20px;
     width: 100%;
+
     justify-content: center;
 }
 .buton-a {
@@ -80,11 +88,7 @@ content {
 }
 
 @media (max-width: 480px){
-.titulo{
 
-    font-size: 3.1rem;
-    padding: 0;
-}
 /* OFERTA */
 .oferta{
     font-size: 1.2rem;
