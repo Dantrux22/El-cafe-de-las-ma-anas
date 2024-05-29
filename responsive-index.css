@@ -150,8 +150,9 @@ h3{
 
 @media (max-width: 390px){
   .Inicio{
-    height: 90vh;
+    background-image: url(./fotos/responsive-390.jpeg);
+    height: 630px;
     width: 390px;
 
   }
-}
+} 
