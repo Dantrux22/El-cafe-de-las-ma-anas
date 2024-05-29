@@ -3,6 +3,9 @@
         width: 4.5rem ;
     } 
 /* INICIO */
+.Inicio{
+  background-size: inherit;
+}
 .titulo{
     width: 100%;
     padding: 0;
