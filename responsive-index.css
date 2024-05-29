@@ -3,6 +3,11 @@
         width: 4.5rem ;
     } 
 /* INICIO */
+.Inicio{
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
 .titulo{
     width: 100%;
     padding: 0;
@@ -25,6 +30,8 @@
     align-items: center;
     
 }
+
+
 /* FOTO Y DESCRIPCION */
 .foto-compu{
     display: block;
