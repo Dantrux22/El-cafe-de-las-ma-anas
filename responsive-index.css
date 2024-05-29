@@ -148,16 +148,14 @@ h3{
     }
 }
 
-@media (max-width: 390px){
+@media (max-width: 500px){
   .Inicio{
     background-image: url(./fotos/responsive-390.jpeg);
     height: 630px;
-    width: 390px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-  
-
+    background-attachment: fixed;  
   }
 } 
