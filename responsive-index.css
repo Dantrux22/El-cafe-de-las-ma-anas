@@ -4,7 +4,7 @@
     } 
 /* INICIO */
 .Inicio{
-  background-image:url(./fotos/fondo-cafe.png);
+  background-image: url(./fotos/responsive-fondo.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
