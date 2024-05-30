@@ -4,15 +4,9 @@
     } 
 /* INICIO */
 .Inicio{
-  position: inherit;
-  background-size: inherit;
-  background-repeat: repeat;
-  background-position: center ;
-  background-attachment: fixed;
-  height: calc(100vh - 170px);
-  width: 100%;
-  color: var(--color-texto); 
+  height: 90vh;
 }
+
 .titulo{
     width: 100%;
     padding: 0;
