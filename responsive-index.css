@@ -9,7 +9,7 @@
   background-repeat: repeat;
   background-position: top ;
   background-attachment: fixed;
-  height: 95vh;
+  height: 80vh;
   width: 100%;
   color: var(--color-texto); 
 }
