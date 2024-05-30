@@ -4,19 +4,14 @@
     } 
 /* INICIO */
 .Inicio{
-  background-image: url(./fotos/responsive-fondo.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  position: inherit;
+  background-size: inherit;
+  background-repeat: repeat;
+  background-position: top ;
   background-attachment: fixed;
   height: 95vh;
   width: 100%;
   color: var(--color-texto); 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  overflow: hidden;
 }
 .titulo{
     width: 100%;
@@ -147,15 +142,3 @@ h3{
         padding: 20px;
     }
 }
-
-@media (max-width: 500px){
-  .Inicio{
-    background-image: url(./fotos/responsive-390.jpeg);
-    height: 630px;
-    width: 100%;
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;  
-  }
-} 
