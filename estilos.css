@@ -49,20 +49,6 @@ nav{
 }
 /* INICIO */
 .Inicio {
-    /* position: relative;
-    background-image:url(./fotos/fondo-cafe.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    color: var(--color-texto); 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    overflow: hidden; */
         background-image: url(./fotos/fondo-cafe.png);
         background-size: cover;
         background-position: center;
