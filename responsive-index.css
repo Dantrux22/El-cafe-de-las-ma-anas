@@ -136,3 +136,60 @@ h3{
         padding: 20px;
     }
 }
+@media only screen and (max-width: 768px) {
+  .Inicio {
+      background-attachment: scroll; 
+      padding: 10px;
+  }
+
+  .Inicio .titulo {
+      font-size: 2em; 
+      padding: 10px;
+  }
+
+  .Inicio .inicio-buton {
+    margin: 0 auto;
+  }
+
+  .Inicio .buton-a {
+      margin: 10px 0; 
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .Inicio {
+      padding: 15px;
+  }
+
+  .Inicio .titulo {
+      font-size: 2em; 
+  }
+
+  .Inicio .inicio-buton {
+      flex-direction: row; 
+      justify-content: space-around; 
+  }
+  .Inicio .buton-a {
+    margin: 15px; 
+}
+}
+
+@media only screen and (min-width: 1025px) {
+.Inicio {
+    padding: 20px; 
+}
+
+.Inicio .titulo {
+    font-size: 2.5em;
+}
+
+.Inicio .inicio-buton {
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.Inicio .buton-a {
+    margin: 20px; 
+}
+}
+

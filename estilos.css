@@ -13,6 +13,11 @@
     font-family:Lucida;
 
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -44,7 +49,7 @@ nav{
 }
 /* INICIO */
 .Inicio {
-    position: relative;
+    /* position: relative;
     background-image:url(./fotos/fondo-cafe.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -57,7 +62,24 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    overflow: hidden;
+    overflow: hidden; */
+        background-image: url(./fotos/fondo-cafe.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        text-align: center;
+        color: white;
+        padding: 20px;
+
+        background-attachment: fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover; 
+        -o-background-size: cover; 
 }
 .titulo {
     text-align: start;
