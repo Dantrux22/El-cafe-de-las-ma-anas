@@ -1,66 +1,64 @@
-:root {
-    --color-texto: #FFFFFF;
-    --color-texto2: #000000;
-    --color-cafe: #F7E5D2;
-    --color-datalles: #404D3B;
+:root{
+    --color-texto:#FFFFFF;
+    --color-texto2:#000000;
+    --color-cafe:#F7E5D2;
+    --color-datalles:#404D3B;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Lucida;
 
-a {
+}
+a{
     text-decoration: none;
 }
 
-header {
-    background-color: var(--color-cafe);
-}
+header{
+   background-color: var(--color-cafe);
 
-nav {
+}
+nav{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0 20px;
+    padding: 10px;
     font-size: 1.2rem;
 }
 
-.herder-a {
+.herder-a{
     display: flex;
     color: var(--color-texto2);
 }
-
-.herder-a:hover {
+.herder-a:hover{
     color: #333;
 }
-
-.logo-pag {
-    width: 100px;
+.logo-pag{
+    width:100px ;
 }
-
 /* INICIO */
 .Inicio {
     position: relative;
-    background-image: url(./fotos/fondo-cafe.png);
+    background-image:url(./fotos/fondo-cafe.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
     width: 100vw;
-    color: var(--color-texto);
+    color: var(--color-texto); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     overflow: hidden;
 }
-
 .titulo {
     text-align: start;
     margin-left: 50px;
@@ -83,7 +81,7 @@ nav {
 
 .buton-a:hover {
     background-color: var(--color-datalles);
-    transition: 0.5s;
+    transition: .5s;
 }
 
 .b1 {
@@ -91,328 +89,163 @@ nav {
 }
 
 .buton-a a {
-    color: var(--color-texto);
+    color: var(--color-texto); 
     font-size: 1.2rem;
 }
 
+
 /* OFERTA */
-.oferta {
+.oferta{
     background-color: var(--color-datalles);
     color: var(--color-texto);
     text-align: center;
     padding: 25px;
     font-size: 1.4rem;
 }
-
 /* FOTO Y DESCRIPCION */
-.content {
+
+content {
     background-color: var(--color-texto);
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 20px;
-}
+  }
 
-.come, .bebe, .disfruta {
+  .come, .bebe, .disfruta {
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
+  }
 
-.descripcion-foto {
-    width: 100%;
-    max-width: 600px;
+  .descripcion-foto {
+    float: left;
+    width: 50%;
     height: auto;
     object-fit: cover;
     text-align: center;
-}
+  }
 
-.content-sub-titulo {
+  .content-sub-titulo {
     font-size: 1.5rem;
     margin-bottom: 10px;
-}
+  }
 
-.descripcion-p {
+  .descripcion-p {
     font-size: 1.2rem;
     line-height: 1.4;
     text-align: center;
     margin: 0 40px;
-}
-
-b, h3 {
+  }
+  b, h3{
     font-size: 2rem;
     color: var(--color-datalles);
-}
+  }
 
-.foto-compu {
+.foto-compu{
     display: none;
 }
 
-/* HORARIOS */
-section {
+  /* HORARIOS */
+
+  section{
     display: flex;
-    flex-direction: column;
     text-align: center;
     background-color: var(--color-cafe);
-    padding: 20px 0;
-}
-
-.section-horarios-titulo {
+    height: 50vh;
+    width: 100% !important;
+  }
+ .section-horarios-titulo{
+    background-color: var(--color-cafe);
     font-size: 2rem;
-    padding: 20px 0;
-}
-
-.horarios-caracteristicas {
+    text-align: center;
+    padding:20px 0;
+  }
+    .horarios-caracteristicas{
     display: flex;
-    flex-direction: column;
     width: 100%;
+    justify-content: space-evenly;
     align-items: center;
-}
+  }
 
-.sub-horarios-caracteristicas {
+  .sub-horarios-caracteristicas{
     width: 100%;
     font-size: 1.3rem;
     line-height: 1.4;
+  } 
+  .sub-r6{
     padding: 10px;
-}
+    height: 70% ;
+    border-right: solid 2px var(--color-datalles);
+  }
+  .section-horarios-titulo-master{
+    width: 100% !important;
+ }
 
-/* GALERIA */
-.galeria {
+  /* GALERIA */
+
+.galeria{
     display: flex;
     max-height: 50vh;
     overflow-x: auto;
     object-fit: cover;
 }
 
-.galeria-img {
+.galeria-img{
     width: 300px;
     object-fit: cover;
 }
 
 /* FOOTER */
-footer {
+ footer{
     display: flex;
-    flex-direction: column;
     background-color: var(--color-datalles);
-    padding: 20px 0;
-    color: var(--color-texto);
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    height: 40vh;
+    width: 100%;
 }
 
-.footer-info {
+.footer-info{
     display: flex;
-    flex-direction: column;
+    color: var(--color-texto);
+    text-align: center;
     align-items: center;
     margin: 0 auto;
 }
-
-.footer-titulo {
+.footer-titulo{
     font-size: 2rem;
 }
-
-.sub-footer-info {
+.sub-footer-info{
     font-size: 1.3rem;
 }
 
-.redes {
+.redes{
     display: flex;
     flex-direction: column;
     padding: 20px;
+    height: 100%;
     justify-content: space-evenly;
     font-size: 1.3rem;
 }
-
-.redes-a {
+.redes-a{
+    display: flex;
     color: var(--color-cafe);
-    margin: 5px 0;
+    justify-content: space-evenly;
 }
 
-.redes-a:hover {
-    color: #333;
-}
 
-input {
+
+.redes-a:hover{
+    color: #333 ;
+}
+input{
     background-color: transparent;
     border: solid 1px var(--color-texto);
     margin-top: 20px;
     border-radius: 10px;
     padding: 9px;
-    color: var(--color-texto);
-}
-
-input::placeholder {
+    color:  var(--color-texto);
+} 
+input::placeholder{
     color: #d0c4c4;
 }
-
-input:hover {
+input:hover{
     background-color: #333;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .logo-pag {
-        width: 4.5rem;
-    }
-
-    /* INICIO */
-    .Inicio {
-        height: 90vh;
-    }
-
-    .titulo {
-        width: 100%;
-        padding: 0;
-        margin: 0 auto;
-        text-align: center;
-        width: 95%;
-        margin-bottom: 20px;
-        font-size: 2.5rem;
-    }
-
-    .inicio-buton {
-        padding: 0;
-        margin: -20px;
-        width: 100%;
-        justify-content: center;
-    }
-
-    .buton-a {
-        display: block;
-        text-align: center;
-        align-items: center;
-    }
-
-    .foto-compu {
-        display: block;
-    }
-
-    .content {
-        display: block;
-    }
-
-    .come, .bebe, .disfruta {
-        display: block;
-    }
-
-    .descripcion-foto {
-        width: 100%;
-        height: 60vh;
-    }
-
-    .descripcion-p {
-        display: flex;
-        flex-direction: column;
-        height: 40vh;
-        padding: 40px 30px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    /* HORARIOS */
-    .section-horarios-titulo {
-        padding: 30px 0;
-    }
-
-    .sub-horarios-caracteristicas {
-        width: 100%;
-        font-size: 1.3rem;
-        line-height: 1.4;
-    }
-}
-
-@media (max-width: 480px) {
-    .oferta {
-        font-size: 1.2rem;
-    }
-
-    .sub-horarios-caracteristicas {
-        font-size: 1rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-        padding: 10px 0;
-    }
-
-    .descripcion-p {
-        width: 100%;
-        text-align: center;
-        padding: 50px 5px 40px 5px;
-        margin: 0 auto;
-    }
-
-    .sub-footer-info {
-        font-size: 1rem;
-    }
-}
-
-@media (max-width: 370px) {
-    footer {
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .footer-info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .redes {
-        width: 100%;
-    }
-
-    .redes-a {
-        padding: 20px;
-    }
-}
-
-@media (min-width: 768px) {
-    .content {
-        flex-direction: row;
-    }
-
-    .come, .bebe, .disfruta {
-        flex-direction: row;
-    }
-
-    .descripcion-foto {
-        width: 50%;
-    }
-
-    .descripcion-p {
-        width: 50%;
-    }
-
-    .horarios-caracteristicas {
-        flex-direction: row;
-        justify-content: space-evenly;
-    }
-}
-
-@media (min-width: 1024px) {
-    nav {
-        justify-content: space-between;
-    }
-
-    .Inicio {
-        height: 80vh;
-    }
-
-    .titulo {
-        font-size: 5rem;
-    }
-
-    .buton-a {
-        width: 250px;
-    }
-
-    .galeria-img {
-        width: 400px;
-    }
-}
+}  

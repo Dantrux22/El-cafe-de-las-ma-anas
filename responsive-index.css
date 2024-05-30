@@ -71,8 +71,11 @@ content {
     justify-content: center;
     margin: 0 auto;
  }
- /* HORARIO */
 
+ /* HORARIO */
+ .section-horarios-titulo-master{
+    display: inline-block;
+ }
  .section-horarios-titulo{
     padding: 30px 0;
  }
