@@ -71,12 +71,12 @@ nav{
   
   .caja-imagen {
     flex: 1;
-    background-image: url('./fotos/comida.png'); 
+    background-image: url('../fotos/comida.png'); 
     background-size: cover;
     background-position: center;
   }
-  .img2{background-image: url(./fotos/foto-amigable.png);}
-  .img2-responsive{background-image: url(./fotos/foto-amigable.png); display: none;}
+  .img2 {background-image: url(../fotos/foto-amigable.png);}
+  .img2-responsive{background-image: url(../fotos/foto-amigable.png); display: none;}
   
   .caja-contenido {
     flex: 1;
